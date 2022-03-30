@@ -1,0 +1,39 @@
+.adviceCard {
+  background-color: var(--color-neutral-dark-gblue);
+  padding: 30px;
+  max-width: 40%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#titleId {
+  color: var(--color-primary-neon);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+}
+
+.adviceCard p {
+  padding-bottom: 15px;
+}
+
+.quote {
+  font-size: 28px;
+}
+
+
+.adviceBtn button {
+  background: transparent;
+  border: none;
+  background: var(--color-primary-neon);
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 100%;
+  text-align: center;
+
+}
+
+.adviceBtn:hover {
+
+}
+
