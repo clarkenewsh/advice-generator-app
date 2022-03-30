@@ -8,11 +8,11 @@ import Advice from './components/Advice';
 //   - Set up Neltify Hosting & deploy
 //   - Clean up React boilerplate
 //   - Review design & style guide - break down the problem
+//   - Import provided assets in to the project
 //   - Create core symantic html markup & components based on the required designs
 //   - Import React useState & useEffect to handle advice slip fetch requests
 //   - Set up fetch request with error handling, connect to advice slip api and test output
 //   - Implement markup for required react component - Advice.js
-//   - Import provided assets in to the project
 //   - Create universal styles for content & core layout including media queries for (mobile / desktop)
 //   - Apply styles to main app & then components
 
@@ -64,7 +64,7 @@ function App() {
         <h1>Advice Generator App</h1>
       </header>
       <main>
-        <Advice advice={advice} onClick={fetchData} />
+        <Advice advice={advice} fetchData={fetchData} />
       </main>
     </div>
   );
