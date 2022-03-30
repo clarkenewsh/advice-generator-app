@@ -59,13 +59,13 @@ function App() {
 
 
   return (
-    <div className="App">
-      <header> 
-        <h1>Advice Generator App</h1>
-      </header>
+    <div>
       <main>
         <Advice advice={advice} fetchData={fetchData} />
       </main>
+      <div className="attribution">
+        Coded by <a href="#">Clarke Newsham</a>.
+      </div>
     </div>
   );
 }
