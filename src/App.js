@@ -19,7 +19,6 @@ import Advice from './components/Advice';
 
 function App() {
 
-  
   const [advice, setAdvice] = useState([]);
   const [isError, setIsError] = useState({
     error: false,
@@ -30,7 +29,6 @@ function App() {
   const fetchData = async () => {
     try {
       const response = await fetch('https://api.adviceslip.com/advice');
-      console.log(response);
 
       if(response.status !== 200) {
         console.log("error occurred");
@@ -39,11 +37,9 @@ function App() {
 
       //parse data in to JSON
       const data = await response.json();
-      console.log(data.slip);
       setAdvice(data.slip);
 
     } catch (error) {
-      console.log(error);
       setIsError({ error: true, message: error.message})
     }
   }
