@@ -64,7 +64,7 @@ function App() {
         <Advice advice={advice} fetchData={fetchData} />
       </main>
       <div className="attribution">
-        Coded by <a href="#">Clarke Newsham</a>.
+        Coded by <a href="https://github.com/clarkenewsh">Clarke Newsham</a>.
       </div>
     </div>
   );
