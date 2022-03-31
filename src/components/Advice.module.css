@@ -1,7 +1,7 @@
 .adviceCard {
   background-color: var(--color-neutral-dark-gblue);
   padding: 60px 30px;
-  max-width: 40%;
+  max-width: 60%;
   border-radius: 10px;
   text-align: center;
 }
@@ -37,10 +37,19 @@
   box-shadow: 0px 0px 40px hsl(150, 100%, 66%);
 }
 
-
 .divider svg {
   height: auto;
   max-width: 100%;
+}
+
+@media all and (max-width:900px) {
+  .adviceCard {
+    max-width: 90%;
+  }
+
+  /* .divider svg {
+   content: url('../images/pattern-divider-mobile.svg');
+  } */
 }
 
 
